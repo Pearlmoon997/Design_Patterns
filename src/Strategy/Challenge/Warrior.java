@@ -2,11 +2,13 @@ package Strategy.Challenge;
 
 public class Warrior extends Character{
     public Warrior() {
-
+        weapon = new Axe();
+        skill = new S_Earthquake();
+        hp = new H_warriorHP();
     }
 
     public void display(){
-        String job = "직업";
-        System.out.println(job+"전사");
+        super.display();
+        System.out.println("전사");
     }
 }

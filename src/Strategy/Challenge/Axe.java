@@ -2,7 +2,7 @@ package Strategy.Challenge;
 
 public class Axe implements Weapon{
     @Override
-    public void getWeapon() {
-        System.out.println("최강도끼");
+    public void showWeapon() {
+        System.out.println(Weapon.msg + "최강도끼");
     }
 }

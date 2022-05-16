@@ -1,5 +1,6 @@
 package Strategy.Challenge;
 
 public interface Hp {
-    public void getHp();
+    public void showHp();
+    String msg = "체력: ";
 }

@@ -1,17 +1,25 @@
 package Strategy.Challenge;
 
 public abstract class Character {
+    // 필드
     Weapon weapon;
     Skill skill;
     Hp hp;
 
+    // 메소드
     public Character() {}
 
-    public abstract void display();
+    public void display(){
+        System.out.printf("직업: ");
+    }
 
-    public void Weapon(){weapon.getWeapon();}
+    public void Weapon(){
+        weapon.showWeapon();
+    }
 
-    public void Skill(){skill.getSkill();}
 
-    public void Hp(){hp.getHp();}
+    public void Skill(){
+        skill.showSkill();}
+
+    public void Hp(){hp.showHp();}
 }

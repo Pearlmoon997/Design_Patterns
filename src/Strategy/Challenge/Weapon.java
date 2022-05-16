@@ -1,5 +1,6 @@
 package Strategy.Challenge;
 
 public interface Weapon {
-    public void getWeapon();
+    public void showWeapon();
+    String msg = "무기: ";
 }
