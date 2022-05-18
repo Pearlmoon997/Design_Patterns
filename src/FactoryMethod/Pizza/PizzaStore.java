@@ -15,5 +15,6 @@ public abstract class PizzaStore {
         return pizza;
     }
 
+    //팩토리 메소드
     abstract Pizza createPizza(String type);
 }
