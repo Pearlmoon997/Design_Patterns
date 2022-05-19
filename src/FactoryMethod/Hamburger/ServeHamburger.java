@@ -1,4 +1,4 @@
-package FactoryMethod.Hamberger;
+package FactoryMethod.Hamburger;
 
 public class ServeHamburger {
 

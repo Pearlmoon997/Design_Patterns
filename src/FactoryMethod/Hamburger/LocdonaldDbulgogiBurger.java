@@ -1,4 +1,4 @@
-package FactoryMethod.Hamberger;
+package FactoryMethod.Hamburger;
 
 public class LocdonaldDbulgogiBurger extends Hamburger {
     public LocdonaldDbulgogiBurger() {

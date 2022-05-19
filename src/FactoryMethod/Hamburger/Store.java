@@ -1,4 +1,4 @@
-package FactoryMethod.Hamberger;
+package FactoryMethod.Hamburger;
 
 public abstract class Store {
     abstract Hamburger createHamburger(String item);
