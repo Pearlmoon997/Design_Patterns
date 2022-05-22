@@ -13,7 +13,7 @@ public class Starter {
         if(!car2.isEnable()){
             car2.cancel();
         } else {
-            System.out.println("Can use");
+            System.out.println("Inuse");
         }
     }
 }

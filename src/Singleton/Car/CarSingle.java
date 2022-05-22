@@ -22,7 +22,7 @@ public class CarSingle {
 
     public void cancel() {
             Inuse = false;
-            System.out.println("Inuse, please wait");
+            System.out.println("Stop Driving");
     }
 
     public boolean isEnable() {
